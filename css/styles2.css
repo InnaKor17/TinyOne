@@ -1,0 +1,139 @@
+@font-face {
+   font-family:'PTSans-Regular';
+   src: url('../fonts/PTSans-Regular.ttf')
+}
+
+@font-face {
+    font-family:'PTSans-Bold';
+    src: url('../fonts/PTSans-Bold.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+.container {  
+    max-width: 1200px;
+    padding: 0 150px;
+    margin: 0 auto;
+}
+body {
+    font-family:'PTSans-Regular';
+}
+header {
+    font-family:'PTSans-Bold'; 
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo span {
+    margin-left: 15px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+}
+.nav li {
+    margin-left: 60px;
+}
+.nav li a {
+    font-size: 22px;
+    line-height: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.banner {
+    background-color: #FCDB00;
+    padding-top: 160px;
+    margin-top: -170px;
+    padding-bottom: 110px;
+}
+
+.col h1 {
+    font-family:'PTSans-Bold';
+    font-size:32px;
+    line-height:20px;
+    color: #010101;
+    margin-bottom: 35px;
+    
+}
+.col span {
+    color:#313841;
+    font-family:'PTSans-Regular';
+    font-size:20px;
+    line-height:24px;
+}
+.col p {
+    color: #82793E;
+    font-family:'PTSans-Regular';
+    font-size:16px;
+    line-height:20px;
+    margin-top: 20px;
+}
+.col1 {
+    margin-top: 72px;
+}
+.icon {
+    display: flex;
+    margin-top: 44px;
+}
+.icon .li {
+    margin: 0 40px;
+}
+
+.features {
+    padding-top:120px;
+    padding-bottom:125px;
+   
+}
+.features .wrapper {
+    align-items: inherit;
+}
+.title {
+    text-align: center;
+    padding: 0 210px;
+}
+
+.title h2 {
+    font-family:'PTSans-Bold'; 
+    font-size: 32px;
+    color:#010101;
+}
+
+.title p {
+    font-size:20px;
+    line-height:24px;
+    color:#313841;
+    margin-top: 30px;
+}
+.features .list {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.features .list li {
+    width: 278px;
+   margin: 0 22px;
+   margin-bottom: 90px;
+}
+.features .list li img {
+    margin-right: 30px;
+    width: 40px;
+}
+.features .list li h4 {
+    margin-bottom: 20px;
+}
+.features .list li h4 p {
+  color: #898989
+}
+
